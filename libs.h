@@ -6,10 +6,10 @@
 #include <vector>
 #include <fstream>
 #include <string>
+#include <chrono>
 
 using namespace std;
-
-
+using namespace std::chrono;
 
 void printArray(int a[], int n);
 
@@ -25,4 +25,10 @@ void quickSort(int arr[], int imin, int imax, int pivot);
 
 
 
-//Free text search\
+//Free text search
+string importText();
+void preprocess_strong_suffix(int *shift, int *bpos, string pat, int m);
+void preprocess_case2(int *shift, int *bpos, string pat, int m);
+vector <int> search(string text, string pat);
+void sendSearch(string pattern);
+

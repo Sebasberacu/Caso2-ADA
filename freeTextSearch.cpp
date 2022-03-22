@@ -100,7 +100,7 @@ vector <int> search(string text, string pat)
 			will become -1 after the above loop */
 		if (j<0)
 		{
-			printf("pattern occurs at shift = %d\n", s);
+			//printf("pattern occurs at shift = %d\n", s);
             occurrences.push_back(s);
 			s += shift[0];
 		}
@@ -114,7 +114,6 @@ vector <int> search(string text, string pat)
 }
 
 void sendSearch(string pattern){
-    clock_t t1 = clock();
     string text = importText();
 	vector <int> foundAt = search(text, pattern);
     int foundAtSize = foundAt.size();
@@ -129,12 +128,14 @@ void sendSearch(string pattern){
         cout << found << endl;
 
     }
-    clock_t t2 = clock() - t1;
 }
-int main()
-{
-
-    sendSearch("perde");
-	return 0;
-}
+// int main()
+// {
+// 	auto start = high_resolution_clock::now();
+//     sendSearch("");
+// 	auto stop = high_resolution_clock::now();
+//     auto duration = duration_cast<milliseconds>(stop - start);
+//     cout << "Time taken by function: " << duration.count() << " miliseconds" << endl;
+// 	return 0;
+// }
 
