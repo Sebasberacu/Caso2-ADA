@@ -1,13 +1,3 @@
-/**
- * @file main.cpp
- * @author your name (you@domain.com)
- * @brief 
- * @version 0.1
- * @date 2022-03-23
- * 
- * @copyright Copyright (c) 2022
- * 
- */
 #include "libs.h"
 
 //Ascendente
@@ -18,6 +8,7 @@
 #define descendentArr1000 int arrD1K[1000]
 #define descendentArr10000 int arrD10K[10000]
 #define descendentArr50000 int arrD50K[50000]
+
 //Fill
 void fillArrayAscendent(int a[], int n){
     for(int i=0 ; i<n ; i++)
@@ -83,7 +74,7 @@ int main(){
     
     //insertionSort(arrD1K, 1000); //2720374, 1641043, 1967609, 1680672
     //insertionSort(arrD10K, 10000);//153888495, 163618815
-    insertionSort(arrD50K, 50000);
+    insertionSort(arrD50K, 50000);//3984653696
 
 
     //Freetext search 
