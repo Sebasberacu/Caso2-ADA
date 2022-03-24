@@ -9,7 +9,6 @@
 #include <chrono>
 
 using namespace std;
-using namespace std::chrono;
 
 void printArray(int a[], int n);
 
@@ -22,8 +21,7 @@ int particionarMediana(int arr[], int imin, int imax);
 void quickSort(int arr[], int imin, int imax, int pivot);
 
 //Insertion Sort
-
-
+void insertionSort(int arr[], int n);
 
 //Free text search
 string importText();
