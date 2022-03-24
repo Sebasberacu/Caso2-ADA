@@ -6,7 +6,7 @@ Compilado con g++ en MAC.
 Todos los tiempos de ejecución están dados en nanosegundos.
 
 # QuickSort Logarítmico
-    • Pivot random
+    • Pivote random
 T1 = Entradas: 1000, tiempo de ejecución --> 287008
 T2 = Entradas: 10000, tiempo de ejecución --> 3871718, 3380094
 T3 = Entradas: 50000, tiempo de ejecución --> 18082261
@@ -72,3 +72,15 @@ Evaluando resultados de tiempos de ejecución del peor caso de insertion sort (a
 entre la función de f(n) y el algoritmo con el mismo n es muy similar. Efectivamente el O(n^2) para el insertion sort.
 
 # Algoritmo freetext
+    El algoritmo de de Z es lineal. Con un comportamiento de O(n+m). Con comlejidad de espacio lineal
+m = 1 --> 1627793411, 2168293870 
+m = 5 --> 961363020 , 906628479
+m = 9 --> 946759242 , 949881274
+          |           •
+          |         •
+1500000000|
+          |      •
+9500000   |     •
+          |    •
+          |  •
+          -----------------------------

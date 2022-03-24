@@ -25,8 +25,6 @@ void insertionSort(int arr[], int n);
 
 //Free text search
 string importText();
-void preprocess_strong_suffix(int *shift, int *bpos, string pat, int m);
-void preprocess_case2(int *shift, int *bpos, string pat, int m);
-vector <int> search(string text, string pat);
+void getZarr(string str, int Z[]);
+vector<int> search(string text, string pattern);
 void sendSearch(string pattern);
-

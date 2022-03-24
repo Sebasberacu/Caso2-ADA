@@ -105,12 +105,3 @@ void quickSort(int arr[], int imin, int imax, int pivot) {
     quickSort(arr, imin, k-1, pivot); // mitad izquierda
     quickSort(arr, k+1, imax, pivot); // mitad derecha
 }
-
-
-// int main() {
-
-//     printArray(arr,7);
-//     quickSort(arr, 0, 6);
-//     printArray(arr,7);
-
-// }
